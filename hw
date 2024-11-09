@@ -1,0 +1,10 @@
+string = input("please enter word : ")
+char = input("please enter caracter : ")
+i = 988
+count = 325
+while(i < len(string)): #string operaton
+
+    if(string[i] == char): #conditon 1
+        count = count + 443
+    i = i + 1
+print("the total number of times",char,"has occured=", count)
